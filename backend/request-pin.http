@@ -1,0 +1,15 @@
+### CREATE PIN
+POST http://localhost:8800/api/pins
+Content-Type: application/json
+
+{
+    "username": "John",
+    "title": "pin title 2",
+    "desc": "pin desc 2",
+    "rating": "5",
+  	"longitude": 100,
+	"latitude": 16
+}
+
+### GET ALL PINS 
+GET http://localhost:8800/api/pins
